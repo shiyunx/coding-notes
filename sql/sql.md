@@ -78,12 +78,13 @@
 ### Alias
 
 > Rename column & table
+
     SELECT column1 AS new_name
     FROM table_name AS t;
 
 ### Alter Table
 
-- Modify an existing table and add a new column1.
+> Modify an existing table and add a new column1
 
       ALTER TABLE table_name
       ADD column1 TEXT;
